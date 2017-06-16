@@ -26,26 +26,23 @@ $usuario = new Usuario();
 $usuario->login("helder", "helder");
 echo $usuario;*/
 
-
+/*
 //Criando um novo usuário
 $aluno = new Usuario("aluno", "@lun0");
 $aluno->insert();
-echo $aluno;
+echo $aluno;*/
 
-/*
-//Alterar um usuário
+
+/*//Alterar um usuário
 $usuario = new Usuario();
-
 $usuario->loadById(8);
-
 $usuario->update("professor", "!@#$%¨&*");
+echo $usuario;*/
 
-echo $usuario;
-*/
-/* Deleta Usuario
+//Deleta Usuario
 $usuario = new Usuario();
 $usuario->loadById(7);
 $usuario->delete();
 echo $usuario;
-*/
+
  ?>
